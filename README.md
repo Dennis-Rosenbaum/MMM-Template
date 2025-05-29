@@ -68,4 +68,12 @@ Notification|Description
 - `node --run lint` - Run linting and formatter checks.
 - `node --run lint:fix` - Fix linting and formatter issues.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
+## Changelog
+
+All notable changes to this project will be documented in the [CHANGELOG.md](CHANGELOG.md) file.
+
 [mm]: https://github.com/MagicMirrorOrg/MagicMirror
