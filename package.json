@@ -22,9 +22,9 @@
   },
   "homepage": "[GitHub url]#readme",
   "devDependencies": {
-    "@eslint/js": "^9.10.0",
-    "@stylistic/eslint-plugin": "^2.7.2",
-    "eslint": "^9.10.0",
-    "globals": "^15.9.0"
+    "@eslint/js": "^9.27.0",
+    "@stylistic/eslint-plugin": "^4.4.0",
+    "eslint": "^9.27.0",
+    "globals": "^16.2.0"
   }
 }
