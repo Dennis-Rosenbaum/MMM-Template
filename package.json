@@ -4,8 +4,8 @@
   "description": "[Module description]",
   "main": "MMM-Template.js",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "test": "node --run lint"
   },
   "repository": {
