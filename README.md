@@ -5,15 +5,17 @@ See the [wiki page](https://github.com/Dennis-Rosenbaum/MMM-Template/wiki) for a
 
 # MMM-Template
 
-![Example of MMM-Template](./example_1.png)
+*MMM-Template* is a module for [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) that displays ... [Module description]
 
-[Module description]
+## Screenshot
+
+![Example of MMM-Template](./example_1.png)
 
 ## Installation
 
 ### Install
 
-In your terminal, go to your [MagicMirror²][mm] Module folder and clone MMM-Template:
+In your terminal, go to the modules directory and clone the repository:
 
 ```bash
 cd ~/MagicMirror/modules
@@ -22,14 +24,20 @@ git clone [GitHub url]
 
 ### Update
 
+Go to the module directory and pull the latest changes:
+
 ```bash
 cd ~/MagicMirror/modules/MMM-Template
 git pull
 ```
 
-## Using the module
+## Configuration
 
-To use this module, add it to the modules array in the `config/config.js` file:
+To use this module, you have to add a configuration object to the modules array in the `config/config.js` file.
+
+### Example configuration
+
+Minimal configuration to use the module:
 
 ```js
     {
@@ -38,7 +46,7 @@ To use this module, add it to the modules array in the `config/config.js` file:
     },
 ```
 
-Or you could use all the options:
+Configuration with all options:
 
 ```js
     {
@@ -50,7 +58,7 @@ Or you could use all the options:
     },
 ```
 
-## Configuration options
+### Configuration options
 
 Option|Possible values|Default|Description
 ------|------|------|-----------
@@ -75,5 +83,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 ## Changelog
 
 All notable changes to this project will be documented in the [CHANGELOG.md](CHANGELOG.md) file.
-
-[mm]: https://github.com/MagicMirrorOrg/MagicMirror
